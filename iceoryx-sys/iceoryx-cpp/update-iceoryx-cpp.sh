@@ -83,7 +83,7 @@ cd ${ICEORYX_TEMP_DIR}
 #######################
 
 ICEORYX_ARCHIVE="${ICEORYX_TAG}.tar.gz"
-ICEORYX_ARCHIVE_LINK="https://github.com/eclipse-iceoryx/iceoryx/archive/refs/tags/${ICEORYX_ARCHIVE}"
+ICEORYX_ARCHIVE_LINK="https://github.com/bychjzh/iceoryx/archive/refs/tags/${ICEORYX_ARCHIVE}"
 
 echo -e "${CYAN}Info:${COLOR_OFF} Fetching '${ICEORYX_ARCHIVE_LINK}'"
 
