@@ -7,7 +7,7 @@ use std::env;
 use std::io::{Error, ErrorKind};
 use std::process::Command;
 
-const ICEORYX_VERSION: &str = "v2.0.66";
+const ICEORYX_VERSION: &str = "v2.0.69";
 
 fn make_and_install(source_dir: &str, build_dir: &str, install_dir: &str) -> std::io::Result<()> {
     let cmake_install_prefix = format!("-DCMAKE_INSTALL_PREFIX={}", install_dir);
